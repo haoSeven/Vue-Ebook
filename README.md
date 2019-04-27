@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ebook
 
 ## Project setup
@@ -27,3 +28,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# Vue-Ebook
+>>>>>>> 11acd8f7f6cc5fcc37d6fef4453c4d8dd3862619
