@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <div id="read"></div>
+   <span class="icon-book"></span>
+    <span class="icon-cart"></span>
   </div>
 </template>
 
@@ -8,13 +9,12 @@
   import Epub from 'epubjs'
   global.ePub = Epub
 export default {
-  name: 'home',
-  mounted () {
-    this.book = new Epub('/2017_Book_InterdisciplinaryPerspectivesO.epub')
-    this.book.renderTo('read', {
-      width: window.innerWidth,
-      height: window.innerHeight
-    }).display()
-  }
 }
 </script>
+
+<style scoped>
+  .icon-book{
+    font-size: 30px;
+    color: red;
+  }
+</style>
